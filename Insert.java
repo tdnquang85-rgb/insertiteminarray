@@ -13,7 +13,7 @@ public class Insert {
         int x = scanner.nextInt();
         System.out.println("nhap vi tri can chen: ");
         int index = scanner.nextInt();
-        if ((index <= -1) & (index >= numbers.length - 1)) {
+        if ((index <= -1) || (index >= numbers.length - 1)) {
             System.out.println("khong chen duoc phan tu vao mang");
         } else {
             // thuc hien chen
